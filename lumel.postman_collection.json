@@ -1,0 +1,52 @@
+{
+	"info": {
+		"_postman_id": "76c9330e-2e1e-444d-92b8-605f17de41c4",
+		"name": "lumel",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "26570419"
+	},
+	"item": [
+		{
+			"name": "localhost:3000/start",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"directory\": \"./sampledirectory\",\"findString\": \"hello\",\"frequency\": 10000, \"startStop\": \"start\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000",
+					"host": [
+						"localhost"
+					],
+					"port": "3000"
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/gettaskdetails",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/gettaskdetails",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"gettaskdetails"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
