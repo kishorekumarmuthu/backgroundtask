@@ -1,7 +1,9 @@
-Step 1. Node version: 16.20.2
+<li>
+    Step 1. Node version: 16.20.2
 Step 2. Open seqConfig.js and change your username and password of your DB. Please change the dialect to your preferred DB.
 Step 3. Make sure you have sampel directory in the project folder.
 Step 4. Run npm start in the terminal to start the background task.
+</li>
 
 API Details:
 
