@@ -24,6 +24,18 @@
         <td><code>"background task is running in scheduled interval"</code></td>
     </tr>
     <tr>
+        <td>"/"</td>
+        <td>post</td>
+        <td><code>{"directory": "./sampledirectory","findString": "hello","frequency": 10000, "startStop": "stop"}</code></td>
+        <td><code>"no task is running"</code></td>
+    </tr>
+    <tr>
+        <td>"/"</td>
+        <td>post</td>
+        <td><code>{"directory": "./sampledirectory","findString": "hello","frequency": 10000, "startStop": "stop"}</code></td>
+        <td><code>"task ended"</code></td>
+    </tr>
+    <tr>
         <td>/gettaskdetails</td>
         <td>get</td>
         <td></td>
@@ -41,7 +53,33 @@
         "task_status": "success",
         "createdAt": "2024-02-21T10:43:15.000Z",
         "updatedAt": "2024-02-21T10:43:15.000Z"
-        }
+        },
+         {
+        "seq_id": 2,
+        "magic_string_count": 3,
+        "task_start_time": "2024-02-21T05:13:51.000Z",
+        "task_end_time": "2024-02-21T05:13:54.000Z",
+        "task_total_time": null,
+        "files_list": "sampledirectory\\hi.txt,sampledirectory\\sample.txt,sampledirectory\\sample2.txt",
+        "files_added_paths": null,
+        "files_deleted_paths": null,
+        "task_status": "success",
+        "createdAt": "2024-02-21T10:43:51.000Z",
+        "updatedAt": "2024-02-21T10:43:51.000Z"
+    },
+    {
+        "seq_id": 3,
+        "magic_string_count": 3,
+        "task_start_time": "2024-02-21T05:13:54.000Z",
+        "task_end_time": "2024-02-21T05:13:57.000Z",
+        "task_total_time": null,
+        "files_list": "sampledirectory\\hi.txt,sampledirectory\\sample.txt,sampledirectory\\sample2.txt",
+        "files_added_paths": null,
+        "files_deleted_paths": null,
+        "task_status": "success",
+        "createdAt": "2024-02-21T10:43:54.000Z",
+        "updatedAt": "2024-02-21T10:43:54.000Z"
+    }
         </code></td>
     </tr>
 </tbody>
